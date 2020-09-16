@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ETL Project - Netflix Content Reviews
 
 I. INTRODUCTION
@@ -22,3 +23,8 @@ The next CSV file that we reviewed and cleaned was the IMDb ratings data set. Mo
 IV. LOAD
 
 For the relational database, we had decision to use PostgreSQL as the database allowed CSV files to be viewed with clarity and the data we had was reasonably small, highly structured and in a one (1) to many relationship. In PG Admin 4/PostgreSQL, we had created a created a database called Netflix db. We had created two tables in the Netflix database, the first table was called Netflix, while the second table was called ratings. The Movie Data file was added onto the Netflix table and the ratings file was added onto the ratings table. For each table, a primary key was used, and each row had an IMDb id. In addition, the ratings table had a foreign key/constraint that did not allow for any additions to be made without adding corresponding information to the Netflix table.
+=======
+# ETLNetflixProject
+
+For the ETL project, chose to use the “Netflix Movies and TV Shows” and “IMDb movies” data sets from the Kaggle.com. Selected these datasets as the information detailed in these files have similar categories and will allow for more seamless integration when merging the files. In this report, will articulate the processes used to clean and upload these files into a relational database.
+>>>>>>> 7d0777688b6102ed15130c893ac937b6dbb180bb
